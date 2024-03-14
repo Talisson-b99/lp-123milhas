@@ -127,6 +127,9 @@
       font-size: 38px;
       line-height: 33px;
       margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     &:last-child {
@@ -134,14 +137,5 @@
     }
 
 
-  }
-  &::before {
-    content: "";
-    position: absolute;
-    background-image: url('./assets/icon-percent.svg');
-    width: 34px;
-    height: 36px;
-    top: 0;
-    left: 75px;
   }
 }

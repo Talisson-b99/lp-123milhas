@@ -1,6 +1,7 @@
 import FormNews from "../FormNews";
 import bannerMain from "../../assets/banner.jpg";
 import bannerDesktop from "../../assets/banner-desktop.jpg";
+import iconPercent from "../../assets/icon-percent.svg";
 import { useEffect, useState } from "react";
 
 const Colorful = () => {
@@ -74,7 +75,11 @@ const Colorful = () => {
       <div className="section__colorful--orange">
         <div className="container">
           <h3 className="offer__title">
-            <span>Até</span>
+            <span>
+              {" "}
+              <img src={iconPercent} alt="" />
+              Até
+            </span>
             50% <br />
             <span>off</span>
           </h3>

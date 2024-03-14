@@ -176,18 +176,12 @@
   font-size: 38px;
   line-height: 33px;
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .offer__title span:last-child {
   text-transform: uppercase;
-}
-.offer__title::before {
-  content: "";
-  position: absolute;
-  background-image: url("./assets/icon-percent.svg");
-  width: 34px;
-  height: 36px;
-  top: 0;
-  left: 75px;
 }
 
 .accordion:not(:last-child) {
