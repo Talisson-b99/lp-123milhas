@@ -1,0 +1,7 @@
+@mixin responsive($device) {
+  @if($device == desktop) {
+    @media screen and (min-width: 960px) {
+      @content      
+    }
+  }
+}
